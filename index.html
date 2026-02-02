@@ -1,10 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Economic Areas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-$END$
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#upper_rhine">Upper Rhine</a>
+                <a class="nav-item nav-link" href="#danube">Danube</a>
+                <a class="nav-item nav-link" href="#basel">Basel</a>
+            </div>
+        </div>
+    </nav>
+
+    <table class="table" id="upper_rhine">
+        <tr>
+            <th>Upper Rhine</th>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_upper_rhine_gdp_capita.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_upper_rhine_gdp_capita_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_upper_rhine_employment.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_upper_rhine_employment_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/lau_upper_rhine_pop_density.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/lau_upper_rhine_pop_density_bw.pdf"></object>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table"  id="danube">
+        <tr>
+            <th>Danube</th></tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_danube_gdp_capita.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_danube_gdp_capita_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_danube_employment.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/nuts_danube_employment_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/lau_danube_pop_density.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/NUTS/lau_danube_pop_density_bw.pdf"></object>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table"  id="basel">
+        <tr>
+            <th>Basel</th></tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/Basel/Basel_Grenzübergänge.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/Basel/Basel_Grenzübergänge_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/Basel/Basel_Verkehr_Lockdown.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="500px" data="Images/Basel/Basel_Verkehr_Lockdown_bw.pdf"></object>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
