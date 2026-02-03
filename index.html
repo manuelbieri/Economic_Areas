@@ -7,24 +7,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2 sticky-top">
         <a class="navbar-brand" href="#">Maps</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#upper_rhine">Upper Rhine</a>
+                <a class="nav-item nav-link" href="#upper_rhine">Upper Rhine</a>
                 <a class="nav-item nav-link" href="#danube">Danube</a>
                 <a class="nav-item nav-link" href="#basel">Basel</a>
+                <a class="nav-item nav-link" href="#pop_density">Population Density</a>
+                <a class="nav-item nav-link" href="#pop_growth">Population Growth</a>
             </div>
         </div>
     </nav>
 
-    <table class="table" id="upper_rhine">
-        <tr>
-            <th>Upper Rhine</th>
-        </tr>
+    <h1 id="upper_rhine">Upper Rhine</h1>
+    <table class="table" >
         <tr>
             <td>
                 <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/nuts_upper_rhine_gdp_capita.pdf"></object>
@@ -51,54 +51,183 @@
         </tr>
     </table>
 
-    <table class="table"  id="danube">
-        <tr>
-            <th>Danube</th></tr>
+    <h1 id="danube">Danube</h1>
+    <table class="table">
         <tr>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/nuts_danube_gdp_capita.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/nuts_danube_gdp_capita.pdf"></object>
             </td>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/nuts_danube_gdp_capita_bw.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/nuts_danube_gdp_capita_bw.pdf"></object>
             </td>
         </tr>
         <tr>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/nuts_danube_employment.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/nuts_danube_employment.pdf"></object>
             </td>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/nuts_danube_employment_bw.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/nuts_danube_employment_bw.pdf"></object>
             </td>
         </tr>
         <tr>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/lau_danube_pop_density.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/lau_danube_pop_density.pdf"></object>
             </td>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/NUTS/lau_danube_pop_density_bw.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/NUTS/lau_danube_pop_density_bw.pdf"></object>
             </td>
         </tr>
     </table>
 
-    <table class="table"  id="basel">
-        <tr>
-            <th>Basel</th></tr>
+
+    <h1 id="basel">Basel</h1>
+    <table class="table">
         <tr>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/Basel/Basel_Grenzübergänge.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Basel/Basel_Grenzübergänge.pdf"></object>
             </td>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/Basel/Basel_Grenzübergänge_bw.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Basel/Basel_Grenzübergänge_bw.pdf"></object>
             </td>
         </tr>
         <tr>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/Basel/Basel_Verkehr_Lockdown.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Basel/Basel_Verkehr_Lockdown.pdf"></object>
             </td>
             <td>
-                <object  type="application/pdf" width="100%" height="700px" data="Images/Basel/Basel_Verkehr_Lockdown_bw.pdf"></object>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Basel/Basel_Verkehr_Lockdown_bw.pdf"></object>
             </td>
         </tr>
     </table>
+    
+    
+    <h1 id="pop_density">Population Density across Europe</h1>
+    <table class="table">
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Overview.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Overview_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_DACH.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_DACH_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_DEU_NL.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_DEU_NL_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_LUX.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_LUX_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Nordeurope.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Nordeurope_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="700px" data="Images/Population_Density/Pop_density_2024_Oberrhein.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="700px" data="Images/Population_Density/Pop_density_2024_Oberrhein_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_POL_CZE.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_POL_CZE_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Wien_Bratislava.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Density/Pop_density_2024_Wien_Bratislava_bw.pdf"></object>
+            </td>
+        </tr>
+    </table>
+    
+    <h1 id="pop_growth">Population Growth across Europe</h1>
+    <table class="table">
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Overview.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Overview_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_DACH.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_DACH_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_DEU_NL.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_DEU_NL_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_LUX.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_LUX_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Nordeurope.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Nordeurope_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="700px" data="Images/Population_Growth/Pop_growth_2024_Oberrhein.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="700px" data="Images/Population_Growth/Pop_growth_2024_Oberrhein_bw.pdf"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Wien_Bratislava.pdf"></object>
+            </td>
+            <td>
+                <object  type="application/pdf" width="100%" height="450px" data="Images/Population_Growth/Pop_growth_2024_2021_Wien_Bratislava_bw.pdf"></object>
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
