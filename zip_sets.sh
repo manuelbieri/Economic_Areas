@@ -4,6 +4,3 @@ do
   zip -r ./Sets/$i.zip ./Images/$i/
   echo $i
 done
-
-# Create archive of all images
-zip -r ./Sets/images.zip ./Images/
