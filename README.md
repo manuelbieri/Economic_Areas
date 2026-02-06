@@ -33,10 +33,10 @@ See https://manuelbieri.ch/Economic_Areas for specific maps.
 - Eurostat
   - NUTS/LAU classification: https://ec.europa.eu/eurostat/web/nuts (LAU data includes population and LAU area)
   - NUTS/LAU shapefiles: https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/local-administrative-units
-  - Reginal statistics: https://ec.europa.eu/eurostat/web/regions/database
+  - Regional statistics: https://ec.europa.eu/eurostat/web/regions/database
 - OECD
   - Local Data Portal: https://localdataportal.oecd.org
-  - Classification is called TL2 or TL3 (Territorial Level) and exists for all OECD countries in one way shape or form.
+  - Classification is called TL2 or TL3 (Territorial Level) and exists for all OECD countries in one way, shape, or form.
 
 
 ### 4. Indicators
@@ -57,5 +57,4 @@ See https://manuelbieri.ch/Economic_Areas for specific maps.
    - **Definition:** regional GDP divided by regional population  
    - **Units:** EUR/person
 
-2. **Employment**
-   - **Employment rate**:
+2. **Employment rate**
