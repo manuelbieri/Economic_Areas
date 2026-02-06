@@ -2,6 +2,14 @@
 
 ## Topographic Maps
 
+### 1. Purpose
+The goal is to generate alternative country borders in Europe based on physical topography, including:
+- mountain barriers
+- river systems
+
+### 2. Links
+- **Mountains and Elevations:** https://ec.europa.eu/eurostat/web/gisco/geodata/digital-elevation-model
+- **Rivers (Euro Hydro River Network):** https://land.copernicus.eu/en/products/eu-hydro/eu-hydro-river-network-database
 
 
 ## Population Density, Population Growth, GDP per Capita & Employment
@@ -41,7 +49,7 @@ See https://manuelbieri.ch/Economic_Areas for specific maps.
 
 2. **Population Growth** (multi-year preferred)  
    - **Definition:** Percentage growth of the population over a time span
-   - **Time span:** annual (2021, 2022, 2024 -> quality issues with the growth rates in 2023) or 2024-2021
+   - **Time span:** annual (2021, 2022, 2024 → quality issues with the growth rates in 2023) or 2024-2021
 
 #### 4.2 NUTS2 / NUTS3
 
